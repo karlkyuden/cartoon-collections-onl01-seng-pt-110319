@@ -18,6 +18,6 @@ end
 def find_the_cheese (arrayOfString)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  return arrayOfString.include(cheese_types)
+  return arrayOfString.include?(cheese_types)
   
 end
