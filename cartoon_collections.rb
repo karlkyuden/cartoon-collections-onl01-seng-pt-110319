@@ -18,6 +18,6 @@ end
 def find_the_cheese (arrayOfString)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  return arrayOfString.detect{ |i| i.include?(cheese_types)}
+  arrayOfString.detect{ |ingredients| ingredients.include?(cheese_types) }
   
 end
