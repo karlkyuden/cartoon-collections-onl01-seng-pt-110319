@@ -16,7 +16,7 @@ def long_planeteer_calls(arrayOfWords)
 end
 
 def find_the_cheese (arrayOfString)
-  # the array below is here to help
+  pp arrayOfString
   cheese_types = ["cheddar", "gouda", "camembert"]
   arrayOfString.detect{ |ingredients| ingredients.include?(cheese_types) }
   
