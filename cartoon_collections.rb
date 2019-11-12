@@ -7,7 +7,11 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(elements)
-  
+  elements.map {|name| name.capitalize }
+  names = ['danil', 'edmund']
+
+# here we map one array to another, convert each element by some rule
+names.map! {|name| name.capitalize } # now names contains ['Danil', 'Edmund']
 end
 
 def long_planeteer_calls# code an argument here
