@@ -17,6 +17,6 @@ end
 
 def find_the_cheese (arrayOfString)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  arrayOfString.detect{ |i| puts i.include?(cheese_types) }
+  arrayOfString.detect{ |i| puts i }
   
 end
